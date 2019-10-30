@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: 'open sans';
 }
 
 *, *:before, *:after {
@@ -11,6 +12,49 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  color: #000000;
+  background:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.main{
+  max-width: 544px;
+  width: 100%;
+}
+
+.header{
+  font-weight: 600;
+  font-size:44px;
+  margin: 0;
+}
+
+form{
+  &__button{
+    border:1px solid black;
+    box-sizing: border-box;
+    border-radius:4px;
+
+  }
+
+  &__label{
+    display:block;
+    font: 14px;
+  }
+
+  &__message{
+    width: 100%;
+    border-radius: 8px;
+    border-radius: 4px;
+    border: 1px solid #D3D4D8;
+    background: white;
+    min-height: 352px;
+  }
+
+   &__wrapper{
+
+  }
 }
