@@ -30,19 +30,27 @@ body {
   font-weight: 600;
   font-size:44px;
   margin: 0;
+  margin-bottom: 48px;
 }
 
-form{
+.form{
   &__button{
-    border:1px solid green
-    box-sizing: border-box;
-    border-radius:4px;
-
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 16px;
+    min-width: 200px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    &--save{
+      background: black;
+      color:white;
+    }
   }
 
   &__label{
     display:block;
-    font: 14px;
+    font-size: 14px;
+    margin-bottom: 8px;
   }
 
   &__message{
@@ -51,10 +59,12 @@ form{
     border-radius: 4px;
     border: 1px solid #D3D4D8;
     background: white;
-    min-height: 352px;
+    min-height: 350px;
   }
 
-   &__wrapper{
-
+   &__actions{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
   }
 }
