@@ -340,6 +340,15 @@ body {
   margin: 0;
   margin-bottom: 48px; }
 
+.form__actions {
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .form__button {
   border: 1px solid black;
   border-radius: 4px;
@@ -366,7 +375,8 @@ body {
   border-radius: 4px;
   border: 1px solid #D3D4D8;
   background: white;
-  min-height: 350px; }
+  min-height: 350px;
+  padding: 12px; }
 
 .form__actions {
   margin-top: 48px;

@@ -34,6 +34,11 @@ body {
 }
 
 .form{
+  &__actions{
+    margin-top:48px;
+    display:flex;
+    justify-content: space-between;
+  }
   &__button{
     border:1px solid black;
     border-radius: 4px;
@@ -62,6 +67,7 @@ body {
     border: 1px solid #D3D4D8;
     background: white;
     min-height: 350px;
+    padding: 12px;
   }
 
    &__actions{
