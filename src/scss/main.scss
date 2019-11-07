@@ -48,9 +48,21 @@ body {
     font-weight: 600;
     letter-spacing: 2px;
     justify-content: space-between;
+    background: white;
+    will-change: background;
+    
     &--save{
       background: black;
       color:white;
+    }
+    &--load{
+      background: #ffffff;
+      color: #000000;
+      transition: background .6s ease-in-out, color 1.2s ease-in-out;
+      &:hover{
+        background: #D3D4D8;
+        color:green;
+      }
     }
   }
 
@@ -76,3 +88,10 @@ body {
     justify-content: space-between;
   }
 }
+// .test{
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   width: 50px;
+//   height: 50px;
+// }

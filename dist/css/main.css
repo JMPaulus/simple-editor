@@ -359,10 +359,21 @@ body {
   letter-spacing: 2px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  background: white;
+  will-change: background; }
   .form__button--save {
     background: black;
     color: white; }
+  .form__button--load {
+    background: #ffffff;
+    color: #000000;
+    -webkit-transition: background .6s ease-in-out, color 1.2s ease-in-out;
+    -o-transition: background .6s ease-in-out, color 1.2s ease-in-out;
+    transition: background .6s ease-in-out, color 1.2s ease-in-out; }
+    .form__button--load:hover {
+      background: #D3D4D8;
+      color: green; }
 
 .form__label {
   display: block;
