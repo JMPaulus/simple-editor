@@ -332,7 +332,8 @@ body {
 
 .main {
   max-width: 544px;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .header {
   font-weight: 600;
